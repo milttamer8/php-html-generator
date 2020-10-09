@@ -1,0 +1,170 @@
+body{
+  background: #ddf1fd;
+}
+.generate-body {
+    background: url(/run/assets/background/background-generate.jpg) no-repeat top center / cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white !important;
+}
+.generate-body a {
+    color: white !important;
+}
+.generate-body .dropdown-item {
+  color: black !important;
+}
+.login-body h1 {
+    color: white !important;
+}
+#exampleModal {
+  color: black !important;
+}
+.login-body {
+    background: url(/run/assets/background/background-log-in.jpg) no-repeat top center / cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+form{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form .upload-content{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: -70px;
+  color: white;
+  font-family: Arial;
+}
+form .input-uploader{
+  /*border: 4px dashed #fff;*/
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form .input-uploader-article {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form .input-uploader-image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form button:hover{
+  background: #149174;
+	color: #0C5645;
+}
+form button:active{
+  border:0;
+}
+.file-uploader {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 100px;
+	/*border: 2px dashed black;*/
+	background: #bda080;
+    border-radius: 5px;
+}
+.url-input {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 100px;
+}
+.out-url {
+    background: transparent;
+    border: 1px solid white;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.generate-body .form-group label {
+    color: white;
+	font-family: Arial;
+}
+.button-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button-group button {
+    background: #55aed6;
+    color: white !important;
+	width: 150px;
+	margin-left: 20px;
+}
+.login-body button {
+    border: 1px solid black;
+}
+.input-title {
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.language-container {	
+	display: flex;
+	margin-top: 20px;
+}
+.language-container button {
+	width: 130px;
+	margin-left: auto;
+	display: block;
+	background: #bda080;
+    color: white;
+}
+.logout {
+	text-align: right;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.language {
+	min-width: 130px;
+	margin-top: 2px;
+    margin-left: 12px;
+}
+.dropdown-item {
+    width: 92%;
+}
+.login-container {
+	background: white;
+	border-radius: 10px;
+	width: 600px;
+	height: 400px;
+}
+.login-input {
+	margin-left: 10%;
+	width: 80%;
+	margin-bottom: 10px;
+}
+.login-container label {
+	width: 30%;
+	margin-left: 10%;
+}
+.login-container button {
+	margin-top: 50px;
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.invalid {
+	padding-top: 10px;
+	color: red;
+	text-align: center;
+}
